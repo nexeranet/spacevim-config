@@ -68,3 +68,6 @@ default_height = 30
 
 [[layers]]
   name = "lang#go"
+
+[[layers]]
+  name = "lang#graphql"
