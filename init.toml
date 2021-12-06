@@ -71,3 +71,6 @@ default_height = 30
 
 [[layers]]
   name = "lang#graphql"
+
+[[layers]]
+  name = "lang#lua"
