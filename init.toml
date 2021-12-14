@@ -74,3 +74,12 @@ default_height = 30
 
 [[layers]]
   name = "lang#lua"
+
+
+[[custom_plugins]]
+    repo = "nvim-lua/plenary.nvim"
+    merged = false
+
+[[custom_plugins]]
+    repo = "nvim-telescope/telescope.nvim"
+    merged = false
