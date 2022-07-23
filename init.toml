@@ -69,7 +69,7 @@ default_height = 30
   name = 'VersionControl'
 
 [[layers]]
-    name = "denite"
+    name = "telescope"
 
 [[layers]]
   name = "lang#python"
@@ -105,9 +105,9 @@ default_height = 30
     repo = "nvim-lua/plenary.nvim"
     merged = false
 
-[[custom_plugins]]
-    repo = "nvim-telescope/telescope.nvim"
-    merged = false
+# [[custom_plugins]]
+    # repo = "nvim-telescope/telescope.nvim"
+    # merged = false
 
 [[custom_plugins]]
     repo = "marko-cerovac/material.nvim"
