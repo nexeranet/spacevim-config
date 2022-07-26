@@ -34,6 +34,7 @@
     filemanager = "nerdtree"
     bootstrap_before = "myspacevim#before"
     bootstrap_after = "myspacevim#after"
+    # disabled_plugins = ["telescope"]
 
 # Enable autocomplete layer
 [[layers]]
@@ -69,7 +70,8 @@ default_height = 30
   name = 'VersionControl'
 
 [[layers]]
-    name = "telescope"
+    name = "denite"
+    # name = "telescope"
 
 [[layers]]
   name = "lang#python"
@@ -79,9 +81,6 @@ default_height = 30
 
 [[layers]]
   name = "lang#graphql"
-#
-# [[layers]]
-  # name = "lang#lua"
 
 [[layers]]
   name = "gtags"
@@ -98,16 +97,30 @@ default_height = 30
   ]
   enabled_clients = ['rls']
   [layers.override_cmd]
-    rust = ["rls"]
+    rust = ["rust-analyzer"]
+    # rust = ["rls"]
+    # rust = ["rust-analyzer"]
 
 
 [[custom_plugins]]
     repo = "nvim-lua/plenary.nvim"
     merged = false
 
-# [[custom_plugins]]
-    # repo = "nvim-telescope/telescope.nvim"
-    # merged = false
+[[custom_plugins]]
+    repo = "nvim-lua/plenary.nvim"
+    merged = false
+
+[[custom_plugins]]
+    repo = "simrat39/rust-tools.nvim"
+    merged = false
+
+[[custom_plugins]]
+    repo = "neovim/nvim-lspconfig"
+    merged = false
+
+[[custom_plugins]]
+    repo = "nvim-telescope/telescope.nvim"
+    merged = false
 
 [[custom_plugins]]
     repo = "marko-cerovac/material.nvim"
